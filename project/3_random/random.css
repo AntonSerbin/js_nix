@@ -1,0 +1,54 @@
+body {
+    background: cadetblue;
+}
+
+.parrent {
+    margin: auto;
+    width: 200px;
+    height: auto;
+    border-radius: 25px;
+    border: red 2px solid;
+    background-color: silver;
+    user-select: none;
+    padding: 10px;
+}
+
+.parrentHeader {
+    width: 100%;
+}
+
+.parrentHeader p {
+    margin-top: 6px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.parrentMain {
+    width: 100%;
+}
+
+.parrentMain input {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+#buttonRandom {
+    border-radius: 2px;
+    background: lightslategrey;
+}
+
+.parrentResult {
+    width: 100%;
+}
+
+.parrentResult p {
+    font-size: 22px;
+    text-align: center;
+}
+
+.parrentResult .tinySize {
+    font-size: 16px;
+    text-align: left;
+
+}
