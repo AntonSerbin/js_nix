@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="wwtbam.css">
+    <link rel="stylesheet" href="buttonAnswer.css">
+    <title>WWTBAM</title>
+</head>
+<body>
+<header>
+    <img id="logoHome" src="./pic/home_lg.png" alt="homeLink">
+    <div>
+        <h3>Who want to be a millionaire!</h3>
+    </div>
+</header>
+
+<main class="parent">
+    <div class="hintsNav">
+        <div class="hint1">
+            <img src="./pic/01.jpg" alt="callFriend">
+        </div>
+        <div class="hint1">
+            <img src="./pic/02.jpg" alt="5050">
+        </div>
+        <div class="hint1">
+            <img src="./pic/03.jpg" alt="communityHelo">
+        </div>
+        <div class="hint1">
+            <img src="./pic/04.jpg" alt="oneMistake">
+        </div>
+    </div>
+    <aside class="bids" id="bidsAside">
+        <!-- тут идут ставки добавленные функцией indicateBidsAside-->
+    </aside>
+</main>
+
+<section class="tasks">
+    <div id="questionField"><p>Вопрос1. На каком инструменте, как считается, играл древнерусский
+        певец и сказитель Боян?</p>
+    </div>
+    <div class="lineButtonsAnwers">
+        <div class="buttonAnswer1">
+            <button class="btn">
+                <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line"/>
+                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line"/>
+                </svg>
+                <span id="buttonAnswer1">Ответ А</span>
+            </button>
+        </div>
+        <div class="buttonAnswer2">
+            <button class="btn">
+                <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line"/>
+                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line"/>
+                </svg>
+                <span id="buttonAnswer2">Ответ Б</span>
+            </button>
+        </div>
+        <div class="buttonAnswer3">
+            <button class="btn">
+                <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line"/>
+                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line"/>
+                </svg>
+                <span id="buttonAnswer3">Ответ В</span>
+            </button>
+        </div>
+        <div class="buttonAnswer4">
+            <button class="btn">
+                <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line"/>
+                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line"/>
+                </svg>
+                <span id="buttonAnswer4">Ответ Г</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+
+<script src="base.js"></script>
+<script src="wwtbam.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    background: black;
+    color: silver;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    height: 100vh;
+    width: 100vw;
+}
+
+body>header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: left;
+
+}
+
+header div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoHome {
+    height: 40px;
+    margin: 20px;
+}
+
+#logoHome:hover {
+    transform: scale(1.2);
+}
+
+body>main.parent {
+    height: calc(70vh - 80px);
+    width: 100%;
+    display: flex;
+    align-content: start;
+}
+main.parent div.hintsNav {
+    width: 80%;
+    background: url("./pic/back_log_o.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+main.parent div.hintsNav div:nth-of-type(1) {flex-grow: 1;}
+main.parent div.hintsNav div:nth-of-type(2) {flex-grow: 3;}
+main.parent div.hintsNav div:nth-of-type(3) {
+    flex-grow: 3;
+    justify-content: right ;
+    display: flex;
+    align-items: flex-start;
+}
+main.parent div.hintsNav div:nth-of-type(4) {
+    flex-grow: 1;
+    justify-content: right ;
+    display: flex;
+    align-items: flex-start;}
+
+main.parent aside {
+    height: 100%;
+    width: 20%;
+    display: grid;
+    grid-template-columns: 80px 120px;
+    color: orange;
+}
+p.asideNumber, p.asideBid {
+    font-size: 0.8rem;
+}
+p.asideNumber {
+    text-align: right;
+    padding-right: 40px;
+}
+.rowAside1 {
+    background: darkgoldenrod;
+}
+.rowAside15, .rowAside10, .rowAside5, .rowAside1 {
+    color: white;
+    font-weight: bold;
+}
+
+body>section.tasks{
+    width: 100%;
+}
+#questionField {
+    text-align: center;
+    margin-top: 10px;
+}
+
+body>section.tasks>.lineButtonsAnwers{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+
+
