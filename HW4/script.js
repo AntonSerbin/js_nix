@@ -10,12 +10,14 @@
 //     </body>
 //     </html>
 // Как получить:
-//     • Напишите код, который получит элемент <div>?
+// • Напишите код, который получит элемент <div>?
 // • Напишите код, который получит <ul>?
 // • Напишите код, который получит второй <li> (с именем Пит)?
 
+// let div = document.querySelector("div");
 // let ul = document.querySelector("ul");
 // let li = document.querySelectorAll("li")[1];
+// console.log(div);
 // console.log(ul);
 // console.log(li);
 
@@ -38,9 +40,9 @@
 // }
 // table.innerHTML = res;
 //
-// let cell = document.querySelectorAll("tr");
+// let cells = document.querySelectorAll("tr");
 // for (let i = 0; i < 5; i++) {
-//     cell[i].querySelectorAll("td")[i].style.backgroundColor = 'red';
+//     cells[i].querySelectorAll("td")[i].style.backgroundColor = 'red';
 // }
 
 // Задание №3. Поиск элементов
@@ -74,7 +76,7 @@
 //     clear(elem); // очищает список
 // </script>
 
-// let elem = document.querySelector("#elem"); //не обязательно, можно не писать, автоматически есть переменная elem
+// let elem = document.querySelector("#elem"); //не обязательно, можно не писать, автоматически ID = одноименная переменная
 // function clear (elem) {
 //     elem.innerHTML="";
 // }
